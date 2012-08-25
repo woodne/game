@@ -14,8 +14,10 @@ public class Menu extends BasicGameState{
     }
     public void render(GameContainer gc, StateBasedGame sbg, Graphics g) throws SlickException{
         g.drawString("This is a super sweet menu!", 100, 100);
-        g.drawRect(100,100,500,300);
-        g.drawOval(90,90,130,50);
+
+        //200, 130
+        Image avatar = new Image("res/avatar.png");
+        g.drawImage(avatar, 200,130);
     }
     public void update(GameContainer gc, StateBasedGame sbg, int delta) throws SlickException{
     }
