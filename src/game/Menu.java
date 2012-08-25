@@ -21,11 +21,17 @@ public class Menu extends BasicGameState{
         exit = new Image("res/exit.png");
     }
     public void render(GameContainer gc, StateBasedGame sbg, Graphics g) throws SlickException{
-        play.draw(width - 700,height-100);
-        exit.draw(width - 200,height -100);
+        play.draw(width - 700,height - 100);
+        exit.draw(width - 200,height - 100);
     }
     public void update(GameContainer gc, StateBasedGame sbg, int delta) throws SlickException{
-
+        int xPos = Mouse.getX();
+        int yPos = Mouse.getY();
+        if((xPos > 100 && xPos < 250 )&&(yPos > 50 && yPos < 100)){
+            if(Mouse.isButtonDown(0)){
+                sbg.enterState(1); //enter game display
+            }
+        }
     }
     public int getID(){
         return 0;

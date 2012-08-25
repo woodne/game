@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5ffdd56-9e10-44fc-96b2-0921199b2a95" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/exit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/play.png" />
-      <change type="DELETED" beforePath="C:\Users\josh\IdeaProjects\testapp\res\menu.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/Menu.java" afterPath="$PROJECT_DIR$/src/game/Menu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/display.java" afterPath="$PROJECT_DIR$/src/game/display.java" />
     </list>
     <ignored path="testapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Menu.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="35" selection-start="681" selection-end="681" vertical-scroll-proportion="0.83548385">
+            <state line="29" column="64" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,10 +84,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="display.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="play.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/play.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/game/display.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
+            <state line="15" column="57" selection-start="429" selection-end="429" vertical-scroll-proportion="0.5349544">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,14 +121,13 @@
         <option value="$PROJECT_DIR$/src/game/Play.java" />
         <option value="$PROJECT_DIR$/src/game/Game.java" />
         <option value="$PROJECT_DIR$/src/stuff/text.java" />
-        <option value="$PROJECT_DIR$/src/game/display.java" />
         <option value="$PROJECT_DIR$/src/game/Menu.java" />
+        <option value="$PROJECT_DIR$/src/game/display.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="150" />
-    <option name="y" value="25" />
+    <option name="x" value="69" />
     <option name="width" value="950" />
     <option name="height" value="680" />
   </component>
@@ -456,14 +460,18 @@
       <created>1345887345433</created>
       <updated>1345887345433</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modifying amazing menu to make it less of a joke">
+      <created>1345888583864</created>
+      <updated>1345888583864</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="150" y="25" width="950" height="680" extended-state="0" />
+    <frame x="69" y="0" width="950" height="680" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.49734244" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.49734244" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -476,8 +484,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28135592" sideWeight="0.6730769" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29038462" sideWeight="0.99413145" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28135592" sideWeight="0.7096154" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29038462" sideWeight="0.99413145" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -522,7 +530,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="freaking amazing menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifying amazing menu to make it less of a joke" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -538,6 +546,7 @@
     <MESSAGE value="yawn" />
     <MESSAGE value="lame button - just playing with the slick library" />
     <MESSAGE value="freaking amazing menu" />
+    <MESSAGE value="modifying amazing menu to make it less of a joke" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -557,15 +566,6 @@
         <state line="14" column="34" selection-start="575" selection-end="575" vertical-scroll-proportion="0.7366667" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="29" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
@@ -575,9 +575,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/play.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/game/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="681" selection-end="681" vertical-scroll-proportion="0.83548385">
+        <state line="29" column="64" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="57" selection-start="429" selection-end="429" vertical-scroll-proportion="0.5349544">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
