@@ -32,6 +32,11 @@ public class Menu extends BasicGameState{
                 sbg.enterState(1); //enter game display
             }
         }
+        if((xPos > 600 && xPos < 750 )&&(yPos > 50 && yPos < 100)){
+            if(Mouse.isButtonDown(0)){
+                gc.exit();
+            }
+        }
     }
     public int getID(){
         return 0;
